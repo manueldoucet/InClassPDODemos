@@ -30,7 +30,7 @@
          //echo $q;
          $stmt = $dbc->query($q);
          $article= $stmt->fetch(PDO::FETCH_ASSOC);
-         var_dump($article);
+         //var_dump($article);
          
          echo "<h3 class='my-4'>{$article['title']}</h3>";
          echo "<p>{$article['description']}</p>";
