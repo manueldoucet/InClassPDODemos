@@ -1,15 +1,6 @@
-
+<script type="text/javascript"  <script type="text/javascript" src="https://raw.githubusercontent.com/manueldoucet/InClassPDODemos/master/main.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        // Show hide popover
-        $(".mobile-menu").click(function(){
-            $(this).find(".mobile-menu").slideToggle("fast");
-        });
-    });
-    $(document).on("click", function(event){
-        var $trigger = $(".mobile-menu");
-        if($trigger !== event.target && !$trigger.has(event.target).length){
-            $(".mobile-menu").slideUp("fast");
-        }            
-    });
+   $(function(){
+      alert("My First Jquery Test");
+   });
 </script>
